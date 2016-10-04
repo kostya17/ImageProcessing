@@ -9,7 +9,7 @@ import java.awt.*;
 /**
  * Created by kostya on 9/14/16.
  */
-public class Lab0 implements GLEventListener {
+public class Lab1 implements GLEventListener {
 
     private GLU glu;
 
@@ -66,7 +66,7 @@ public class Lab0 implements GLEventListener {
 
     public static void main(String[] args) {
         GLCanvas canvas = initCanvas();
-        Lab0 l = new Lab0();
+        Lab1 l = new Lab1();
         canvas.addGLEventListener(l);
 
 //        creating frame
